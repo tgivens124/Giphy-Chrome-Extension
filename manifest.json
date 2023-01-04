@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Giphy Extension",
+    "description":"Giphy Chrome Extension",
+    "version": "1.0",
+    "author": "Taylor Givens",
+    "browser_action":{
+        "default_popup": "index.html",
+        "default_title":  ""
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
+
